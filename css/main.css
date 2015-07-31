@@ -2,18 +2,37 @@ body {
   background: url(../img/No2.jpg) no-repeat center fixed;
   width: 100%;
 }
-
+h2 {
+   margin-top: 50px;
+   text-align: center;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5rem;
 }
+h3 {
+   margin-top:10px;
+   text-align: center;
+   color: white;
+   font-family: 'cardo', serif;
+   font-size: 1.5rem;
+}
+
 ol {
 
 }
 li {
+   font-family: 'cardo', serif;
+   font-size: 1.5rem;
    color: white;
    display: inline-block;
-   margin: 10px;
+   margin: 155px 25px 0 55px;
+   line-height: 1.5em;
+
 }
+
 p {
    border: 1px solid black;
-   font-size: 2em;
-   color: #222;
+   font-size: 1.5em;
+   color: white;
 }
+
