@@ -1,47 +1,71 @@
 body {
-  background: url(../img/No2.jpg) no-repeat center fixed;
+  background: url(../img/No1.jpg) no-repeat center;
   width: 100%;
+  height: 100%;
 }
 h2 {
    margin-bottom: 25px;
    text-align: center;
-   color: white;
+   color: black;
    font-family: 'Montserrat', sans-serif;
-   font-size: 1.5rem;
+   font-size: 1.7rem;
 }
 
 h3 {
    margin-top: 10px;
    text-align: center;
-   color: white;
+   color: black;
    font-family: 'cardo', serif;
    font-size: 1.5rem;
+   font-weight: bold;
 }
 
-ol {
 
-}
 div ol li {
    font-family: 'cardo', serif;
    font-size: 1.5rem;
    color: white;
    float: left;
-   margin: 175px 25px 75px 55px;
+   margin: 275px 25px 75px 55px;
    line-height: 1.5em;
 }
-div p+ol li {
+div h4+ol li {
    font-family: 'cardo', serif;
    font-size: 1.5rem;
-   color: white;
+   color: black;
    margin: 0 auto;
    float: none;
    padding: 10px 50px 0 50px;
+   text-align: center;
 }
 
 p {
    padding: 10px 50px 0 50px;
    font-size: 1.5em;
-   color: white;
+   color: black;
    line-height: 1.1em;
+}
+h4 {
+   font-family: 'cardo', serif;
+   font-size: 1.5rem;
+   color:black;
+   line-height: 1.5em;
+   padding: 10px 50px 0 50px;
+}
+a:link {
+   color: #444;
+   text-decoration: none;
+}
+
+a:visited {
+   color: #FFe4e1;
+}
+
+a:hover {
+
+}
+
+a:active {
+   color: #ddd;
 }
 
