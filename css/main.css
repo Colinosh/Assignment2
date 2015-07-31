@@ -1,6 +1,16 @@
 body {
-   background: url(Assignment2/img/aview.jpg) no-repeat center center fixed;
+  background: url(../img/No2.jpg) no-repeat center fixed;
+  width: 100%;
+}
 
+}
+ol {
+
+}
+li {
+   color: white;
+   display: inline-block;
+   margin: 10px;
 }
 p {
    border: 1px solid black;
