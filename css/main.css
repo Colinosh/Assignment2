@@ -1,3 +1,7 @@
+body {
+   background: url(Assignment2/img/aview.jpg) no-repeat center center fixed;
+
+}
 p {
    border: 1px solid black;
    font-size: 2em;
