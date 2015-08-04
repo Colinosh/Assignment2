@@ -1,14 +1,40 @@
-nav a {
-  color: #36454f;
-  font-family: 'cardo', serif;
-  font-size: 1rem;
-  float: left;
-  width: 400px;
-}
-
 body {
   background-image: url("../img/No1.jpg") no-repeat center center fixed;
   background-size: cover;
+}
+
+nav {
+  text-decoration: none;
+  color: #36454f;
+  font-family: 'cardo', serif;
+  font-size: 1.5rem;
+  padding-left: 650px;
+  padding-top: 5px;
+}
+
+hlink a:link {
+  text-decoration: none;
+  color: #36454f;
+  font-family: 'cardo', serif;
+  font-size: 1.5rem;
+  padding-left: 650px;
+  padding-top: 5px;
+}
+hlink a:visited {
+  text-decoration: none;
+  color: #36454f;
+  font-family: 'cardo', serif;
+  font-size: 1.5rem;
+  padding-left: 650px;
+  padding-top: 5px;
+}
+hlink a:hover {
+  text-decoration: none;
+  color: #E6DEDC;
+  font-family: 'cardo', serif;
+  font-size: 1.5rem;
+  padding-left: 650px;
+  padding-top: 5px;
 }
 
 h1 {
@@ -16,8 +42,8 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 6.5rem;
-  padding-left: 555px;
-  padding-top: 320px;
+  padding-left: 650px;
+  padding-top: 335px;
 }
 
 h2 {
@@ -25,43 +51,35 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  padding-left: 585px;
+  padding-left: 680px;
   padding-top: 5px;
 }
 
-div.quote {
-  text-decoration: none;
-  text-align: center;
-  color: #E6DEDC;
-  font-family: 'cardo', serif;
-  font-size: 1.1rem;
-  padding-left: 15px;
-  padding-top: 40px;
-  text-shadow: 1px 2px 2px rgba(10, 10, 10, 0.8);
-}
-
-a.link {
+quote a:link {
   text-decoration: none;
   color: #E6DEDC;
   font-family: 'cardo', serif;
   font-size: 1rem;
-  padding-left: 400px;
-  padding-top: 10px;
+  padding-left: 300px;
+  padding-top: 20px;
+  line-height: 1.3rem;
 }
-a.visited {
+quote a:visited {
   text-decoration: none;
   color: #E6DEDC;
   font-family: 'cardo', serif;
   font-size: 1rem;
-  padding-left: 400px;
-  padding-top: 10px;
+  padding-left: 300px;
+  padding-top: 20px;
+  line-height: 1.3rem;
 }
-a.hover {
+quote a:hover {
   color: #36454f;
   font-family: 'cardo', serif;
-  font-size: 1.4rem;
-  padding-left: 400px;
-  padding-top: 10px;
+  font-size: 1rem;
+  padding-left: 300px;
+  padding-top: 20px;
+  line-height: 1.3rem;
 }
 
 table {
@@ -70,30 +88,40 @@ table {
   font-size: 1.2rem;
   float: left;
   width: 1366px;
-  margin-top: 50px;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  line-height: 1.4rem;
+  width: 1366px;
 }
 
-div h2 {
+div > h2 {
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  padding-top: 150px;
+  padding-top: 125px;
+  padding-bottom: 10px;
+  clear: both;
 }
 
 main {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 5px;
 }
 
-h3 {
-  padding-left: 50px;
-}
-
-div, h3 {
-  color: #E6DEDC;
+div > h3 {
+  color: black;
   font-family: 'cardo', serif;
-  font-size: 1.5rem;
-  padding-left: 610px;
-  padding-top: 10px;
+  font-size: 1.3rem;
+  padding-left: 650px;
+  padding-bottom: 20px;
+}
+
+p {
+  color: black;
+  font-family: 'cardo', serif;
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+  line-height: 1.3rem;
 }
