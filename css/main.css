@@ -1,10 +1,99 @@
-div .img {
-  background: url("./img/No1.jpg") no-repeat center center fixed;
+nav a {
+  color: #36454f;
+  font-family: 'cardo', serif;
+  font-size: 1rem;
+  float: left;
+  width: 400px;
+}
+
+body {
+  background-image: url("../img/No1.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
-div .quote {
-  font-family: 'cardo', serif;
+h1 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 6.5rem;
+  padding-left: 555px;
+  padding-top: 320px;
+}
+
+h2 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   font-size: 2rem;
+  padding-left: 585px;
+  padding-top: 5px;
+}
+
+div.quote {
+  text-decoration: none;
   text-align: center;
+  color: #E6DEDC;
+  font-family: 'cardo', serif;
+  font-size: 1.1rem;
+  padding-left: 15px;
+  padding-top: 40px;
+  text-shadow: 1px 2px 2px rgba(10, 10, 10, 0.8);
+}
+
+a.link {
+  text-decoration: none;
+  color: #E6DEDC;
+  font-family: 'cardo', serif;
+  font-size: 1rem;
+  padding-left: 400px;
+  padding-top: 10px;
+}
+a.visited {
+  text-decoration: none;
+  color: #E6DEDC;
+  font-family: 'cardo', serif;
+  font-size: 1rem;
+  padding-left: 400px;
+  padding-top: 10px;
+}
+a.hover {
+  color: #36454f;
+  font-family: 'cardo', serif;
+  font-size: 1.4rem;
+  padding-left: 400px;
+  padding-top: 10px;
+}
+
+table {
+  color: #E6DEDC;
+  font-family: 'cardo', serif;
+  font-size: 1.2rem;
+  float: left;
+  width: 1366px;
+  margin-top: 50px;
+}
+
+div h2 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 150px;
+}
+
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h3 {
+  padding-left: 50px;
+}
+
+div, h3 {
+  color: #E6DEDC;
+  font-family: 'cardo', serif;
+  font-size: 1.5rem;
+  padding-left: 610px;
+  padding-top: 10px;
 }
