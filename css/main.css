@@ -1,39 +1,34 @@
-body {
-  background-image: url("../img/No1.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
-
 nav {
   text-decoration: none;
   color: #36454f;
   font-family: 'cardo', serif;
   font-size: 1.5rem;
-  padding-left: 650px;
+  padding-left: 350px;
   padding-top: 5px;
 }
 
-hlink a:link {
+.hnav a:link {
   text-decoration: none;
   color: #36454f;
   font-family: 'cardo', serif;
   font-size: 1.5rem;
-  padding-left: 650px;
+  padding-left: 350px;
   padding-top: 5px;
 }
-hlink a:visited {
+.hnav a:visited {
   text-decoration: none;
   color: #36454f;
   font-family: 'cardo', serif;
   font-size: 1.5rem;
-  padding-left: 650px;
+  padding-left: 350px;
   padding-top: 5px;
 }
-hlink a:hover {
+.hnav a:hover {
   text-decoration: none;
   color: #E6DEDC;
   font-family: 'cardo', serif;
   font-size: 1.5rem;
-  padding-left: 650px;
+  padding-left: 350px;
   padding-top: 5px;
 }
 
@@ -53,32 +48,36 @@ h2 {
   font-size: 2rem;
   padding-left: 680px;
   padding-top: 5px;
+  padding-bottom: 20px;
 }
 
-quote a:link {
+.quote {
+  padding-left: 300px;
+  padding-top: 25px;
+}
+.quote a:link {
   text-decoration: none;
   color: #E6DEDC;
   font-family: 'cardo', serif;
-  font-size: 1rem;
-  padding-left: 300px;
-  padding-top: 20px;
+  font-size: 1.6rem;
   line-height: 1.3rem;
 }
-quote a:visited {
+.quote a:visited {
   text-decoration: none;
   color: #E6DEDC;
   font-family: 'cardo', serif;
-  font-size: 1rem;
+  font-size: 1.6rem;
   padding-left: 300px;
-  padding-top: 20px;
+  padding-top: 25px;
   line-height: 1.3rem;
 }
-quote a:hover {
+.quote a:hover {
   color: #36454f;
   font-family: 'cardo', serif;
-  font-size: 1rem;
+  font-size: 1.6rem;
   padding-left: 300px;
-  padding-top: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
   line-height: 1.3rem;
 }
 
@@ -99,8 +98,8 @@ div > h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  padding-top: 125px;
-  padding-bottom: 10px;
+  padding-top: 55px;
+  padding-bottom: 20px;
   clear: both;
 }
 
@@ -110,8 +109,16 @@ main {
   padding-bottom: 5px;
 }
 
-div > h3 {
+h3 {
   color: black;
+  font-family: 'cardo', serif;
+  font-size: 1.3rem;
+  padding-left: 650px;
+  padding-bottom: 20px;
+}
+
+div > h3 {
+  color: #E6DEDC;
   font-family: 'cardo', serif;
   font-size: 1.3rem;
   padding-left: 650px;
@@ -124,4 +131,32 @@ p {
   font-size: 1.2rem;
   padding-bottom: 5px;
   line-height: 1.3rem;
+}
+
+h4 {
+  color: black;
+  font-family: 'cardo', serif;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  line-height: 1.3rem;
+  padding-left: 20px;
+}
+
+ol li {
+  color: black;
+  font-family: 'cardo', serif;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+  line-height: 1.3rem;
+  padding-left: 20px;
+}
+
+div .top {
+  background-image: url("../img/No1.jpg") no-repeat center center fixed;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+div .bottom {
+  background-image: url("../img/No2.jpg") no-repeat center center fixed;
 }
